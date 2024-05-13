@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'a';
+    src: url('../font/Vazirmatn-Light.woff2') format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    outline: none;
+    transition: all 0.1s ease-in;
+    font-family: a;
+}
+.ax{
+    width: 50px;
+    height: 53px;
+}
+.list-gp li a:hover{
+    color:aqua!important;
+}
+.sha-dow{
+    box-shadow: 0px 0px 5px #1a1a1a26!important;
+}
+.header{
+    box-shadow: 0 0 10px 0 #1a1a1a26;
+}
+.bi-headset,
+.bi-bag,
+.bi-files,
+.bi-mortarboard {
+    background-color: rgba(177, 233, 245, 0.367);
+    padding: 0px 20px;
+    margin: 10px;
+}
+.color{
+    background:#fafcf2;
+}
+.buy {
+    padding: 7px 120px;
+}
+.DorePNG {
+    margin-top: -50px;
+    max-width: 100%;
+}
